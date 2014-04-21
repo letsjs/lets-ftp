@@ -1,0 +1,43 @@
+{
+  "name": "lets-ftp",
+  "version": "0.0.0",
+  "description": "FTP connection management for Lets",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/letsjs/lets-ftp.git"
+  },
+  "homepage": "https://github.com/letsjs/lets-ftp",
+  "bugs": {
+    "url": "https://github.com/letsjs/lets-ftp/issues"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [
+    "lets",
+    "ftp",
+    "sftp"
+  ],
+  "author": "Andreas Hultgren",
+  "license": "MIT",
+  "dependencies": {
+    "ftp": "^0.3.6",
+    "async": "^0.7.0"
+  },
+  "peerDependencies": {
+    "lets": "^0.0.5"
+  },
+  "devDependencies": {
+    "sinon-chai": "^2.5.0",
+    "lets": "^0.0.5",
+    "grunt-mocha-test": "^0.10.2",
+    "grunt-contrib-watch": "^0.6.1",
+    "sinon": "^1.9.1",
+    "grunt-cli": "^0.1.13",
+    "chai": "^1.9.1",
+    "grunt": "^0.4.4",
+    "mocha": "^1.18.2",
+    "grunt-contrib-jshint": "^0.10.0"
+  }
+}
