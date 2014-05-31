@@ -26,11 +26,10 @@
     "async": "^0.7.0"
   },
   "peerDependencies": {
-    "lets": "^0.0.5"
+    "lets": "0.0.x"
   },
   "devDependencies": {
     "sinon-chai": "^2.5.0",
-    "lets": "^0.0.5",
     "grunt-mocha-test": "^0.10.2",
     "grunt-contrib-watch": "^0.6.1",
     "sinon": "^1.9.1",
